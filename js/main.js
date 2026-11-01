@@ -15,19 +15,48 @@ document.addEventListener('DOMContentLoaded', () => {
   initWhatsAppOrder();
   initGalleryLightbox();
   initScrollReveal();
+  initLazyVideos();
 });
+
+// Lazy load & auto-play reel videos only when scrolled into view
+function initLazyVideos() {
+  const reelVideos = document.querySelectorAll('.reel-card video');
+  if (!reelVideos.length || !('IntersectionObserver' in window)) return;
+
+  const videoObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const vid = entry.target;
+      if (entry.isIntersecting) {
+        if (vid.paused) {
+          vid.play().catch(() => {});
+        }
+      } else {
+        if (!vid.paused) {
+          vid.pause();
+        }
+      }
+    });
+  }, { threshold: 0.2 });
+
+  reelVideos.forEach(vid => {
+    vid.preload = 'none';
+    videoObserver.observe(vid);
+  });
+}
 
 // 1. Splash Preloader — Centered Two-Line Luxury Reveal + Metallic Silver Shine
 function initPreloader() {
   const preloader = document.getElementById('preloader');
   if (!preloader) return;
 
-  // Total sequence duration:
-  // 0.2s–0.85s: "jū." letters rise & unblur calmly
-  // 1.05s–2.2s: "Specialty Kōhī" letters rise & unblur
-  // 2.25s–3.5s: Pure metallic silver reflection sweeps inside the letters
-  // 3.65s: Soft fade-out to main page
-  const TOTAL_DURATION = 3650;
+  // Fast skip if visited in current session
+  if (sessionStorage.getItem('ju_preloaded')) {
+    preloader.style.display = 'none';
+    return;
+  }
+  sessionStorage.setItem('ju_preloaded', 'true');
+
+  const TOTAL_DURATION = 1400;
 
   let hidden = false;
   const hidePreloader = () => {
@@ -36,8 +65,12 @@ function initPreloader() {
     preloader.classList.add('fade-out');
     setTimeout(() => {
       preloader.style.display = 'none';
-    }, 950);
+    }, 450);
   };
+
+  // Instant tap / click to dismiss
+  preloader.addEventListener('click', hidePreloader, { once: true });
+  preloader.addEventListener('touchstart', hidePreloader, { once: true, passive: true });
 
   setTimeout(hidePreloader, TOTAL_DURATION);
 }

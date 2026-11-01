@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="notranslate" translate="no">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="google" content="notranslate">
+  <title>jū. Specialty Kōhī | مقهى جو للقهوة المختصة — الظهران</title>
+  <meta name="description"
+    content="jū Specialty Kōhī - تجربة يابانية راقية للقهوة المختصة في الظهران (حي الدانة الشمالية). تقطير V60، ماتشا أصلية، ومحاصيل بن حصرية.">
+  <meta name="keywords" content="ju coffee, جو كافيه, قهوة مختصة, الظهران, Specialty Kohi, V60, ماتشا, كافيهات الظهران">
+  <meta name="author" content="jū Specialty Kōhī">
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:title" content="jū. Specialty Kōhī | مقهى جو للقهوة المختصة — الظهران">
+  <meta property="og:description" content="بساطة المكان وفخامة القهوة المختصة. تصفح المنيو واطلب مباشرة.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logo_circle.png">
+  <meta property="og:locale" content="ar_SA">
+
+  <!-- Favicon (Crisp Transparent Monogram jū.) -->
+  <link rel="icon" type="image/png" sizes="128x128" href="images/favicon.png?v=2">
+  <link rel="shortcut icon" href="images/favicon.ico?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=2">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==================== Splash Preloader — Two-Line Centered Elegant Reveal ==================== -->
+  <div id="preloader" class="preloader">
+    <div class="prl-wrap" dir="ltr">
+
+      <!-- Line 1: jū.  (large bold, appears first) -->
+      <div class="prl-line1">
+        <span class="prl-c1" style="--d:0">j</span><span class="prl-c1" style="--d:1">ū</span><span class="prl-c1" style="--d:2">.</span>
+      </div>
+
+      <!-- Line 2: Specialty Kōhī  (light, appears after jū.) -->
+      <div class="prl-line2">
+        <span class="prl-c2" style="--d:0">S</span><span class="prl-c2" style="--d:1">p</span><span class="prl-c2" style="--d:2">e</span><span class="prl-c2" style="--d:3">c</span><span class="prl-c2" style="--d:4">i</span><span class="prl-c2" style="--d:5">a</span><span class="prl-c2" style="--d:6">l</span><span class="prl-c2" style="--d:7">t</span><span class="prl-c2" style="--d:8">y</span><span class="prl-c2" style="--d:9">&nbsp;</span><span class="prl-c2" style="--d:10">K</span><span class="prl-c2" style="--d:11">ō</span><span class="prl-c2" style="--d:12">h</span><span class="prl-c2" style="--d:13">ī</span>
+      </div>
+
+      <!-- Silver shimmer sweep (runs once after all chars appear) -->
+      <div class="prl-shimmer"></div>
+
+      <!-- Thin gold underline -->
+      <div class="prl-gold-line"></div>
+
+    </div>
+  </div>
+
+  <!-- ==================== Mobile Navigation Drawer ==================== -->
+  <div id="drawerOverlay" class="mobile-drawer-overlay"></div>
+  <aside id="mobileDrawer" class="mobile-drawer" aria-label="القائمة الجانبية">
+    <div>
+      <div class="mobile-drawer-header">
+        <div style="display: flex; align-items: center; gap: 10px;" dir="ltr">
+          <div style="width: 38px; height: 38px; border-radius: 50%; background: #FFF; border: 1px solid var(--color-border); overflow: hidden;">
+            <img src="images/logo_circle.png" alt="jū" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <span style="font-weight: 700; font-size: 1.05rem;">jū. <small style="font-weight: 400; color: #888;">Kōhī</small></span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <button type="button" class="lang-toggle-btn js-lang-toggle" aria-label="Switch Language">
+            <i class="fas fa-globe"></i>
+            <span class="lang-toggle-label">EN</span>
+          </button>
+          <button id="closeDrawer" class="mobile-drawer-close" aria-label="Close Menu">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+
+      <ul class="mobile-drawer-links">
+        <li><a href="#home" class="drawer-link active"><i class="fas fa-home"></i> <span data-ar="الرئيسية" data-en="Home">الرئيسية</span></a></li>
+        <li><a href="#menu" class="drawer-link"><i class="fas fa-mug-hot"></i> <span data-ar="قائمة المشروبات" data-en="Menu & Prices">قائمة المشروبات</span></a></li>
+        <li><a href="#beans" class="drawer-link"><i class="fas fa-seedling"></i> <span data-ar="محاصيل البن" data-en="Signature Beans">محاصيل البن</span></a></li>
+        <li><a href="#catering" class="drawer-link"><i class="fas fa-boxes-packing"></i> <span data-ar="باقات الضيافة" data-en="Catering Packages">باقات الضيافة</span></a></li>
+        <li><a href="#partners" class="drawer-link"><i class="fas fa-handshake"></i> <span data-ar="شركاؤنا" data-en="Partners">شركاؤنا</span></a></li>
+        <li><a href="#atmosphere" class="drawer-link"><i class="fas fa-camera"></i> <span data-ar="أجواء المكان" data-en="Atmosphere">أجواء المكان</span></a></li>
+        <li><a href="#visit" class="drawer-link"><i class="fas fa-clock"></i> <span data-ar="ساعات العمل والموقع" data-en="Hours & Location">ساعات العمل والموقع</span></a></li>
+      </ul>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <a href="https://wa.me/966547586822?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%83%D8%A7%D9%81%D9%8A%D9%87%20j%C5%AB%20%E2%98%95%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%85%D9%86%D9%83%D9%85" target="_blank" class="btn-primary" style="width: 100%; justify-content: center; padding: 12px;">
+        <i class="fab fa-whatsapp"></i>
+        <span data-ar="اطلب عبر واتساب" data-en="Order via WhatsApp">اطلب عبر واتساب</span>
+      </a>
+      <div style="text-align: center; margin-top: 14px; font-size: 0.8rem; color: #888;" data-ar="الظهران · حي الدانة الشمالية" data-en="Dhahran · Al Danah Ash Shamaliyah">
+        الظهران · حي الدانة الشمالية
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==================== Header & Navigation ==================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="nav-brand">
+        <a href="#home" class="nav-brand" style="text-decoration: none;">
+          <div class="nav-logo-circle">
+            <img src="images/logo_circle.png" alt="jū Specialty Kōhī Logo">
+          </div>
+          <div class="nav-brand-text">
+            <span class="nav-brand-title" dir="ltr">jū. <small class="nav-brand-kohi">Specialty Kōhī</small></span>
+          </div>
+        </a>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="#menu" class="nav-link" data-ar="قائمة المشروبات" data-en="Menu">قائمة المشروبات</a></li>
+        <li><a href="#beans" class="nav-link" data-ar="محاصيل البن" data-en="Beans">محاصيل البن</a></li>
+        <li><a href="#catering" class="nav-link" data-ar="باقات الضيافة" data-en="Catering">باقات الضيافة</a></li>
+        <li><a href="#partners" class="nav-link" data-ar="شركاؤنا" data-en="Partners">شركاؤنا</a></li>
+        <li><a href="#atmosphere" class="nav-link" data-ar="الأجواء" data-en="Atmosphere">الأجواء</a></li>
+        <li><a href="#visit" class="nav-link" data-ar="أوقات العمل والموقع" data-en="Visit Us">أوقات العمل والموقع</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="langToggle" type="button" class="lang-toggle-btn js-lang-toggle" aria-label="Switch to English / التبديل للعربية">
+          <i class="fas fa-globe"></i>
+          <span class="lang-toggle-label">EN</span>
+        </button>
+        <a href="https://wa.me/966547586822?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%83%D8%A7%D9%81%D9%8A%D9%87%20j%C5%AB%20%E2%98%95%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%85%D9%86%D9%83%D9%85" target="_blank" class="btn-nav-order">
+          <i class="fab fa-whatsapp"></i>
+          <span data-ar="اطلب عبر واتساب" data-en="Order on WhatsApp">اطلب عبر واتساب</span>
+        </a>
+        <button id="openDrawer" class="mobile-toggle" aria-label="فتح القائمة">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== Hero Section — Editorial Bottom-Aligned Cinematic Video ==================== -->
+  <section id="home" class="hero">
+    <video class="hero-video-bg" autoplay muted loop playsinline poster="images/poster_1.jpg">
+      <source src="videos/1.mp4" type="video/mp4">
+      <source src="videos/2.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-eyebrow" dir="ltr">珈琲 · DHAHRAN · SPECIALTY KŌHĪ</div>
+
+      <h1 class="hero-title" data-html="true"
+        data-ar="بساطة الهدوء، <span class=&quot;accent&quot;>وحرفة القهوة المختصة</span>"
+        data-en="Quiet Simplicity, <span class=&quot;accent&quot;>Crafted Specialty Kōhī</span>">
+        بساطة الهدوء، <span class="accent">وحرفة القهوة المختصة</span>
+      </h1>
+
+      <div class="hero-buttons">
+        <a href="#menu" class="btn-primary btn-hero">
+          <i class="fas fa-mug-hot"></i>
+          <span data-ar="المنيو والأسعار" data-en="Menu &amp; Prices">المنيو والأسعار</span>
+        </a>
+        <a href="https://maps.app.goo.gl/vSbAHZfCay75oWnM6" target="_blank" class="btn-glass btn-hero">
+          <i class="fas fa-location-dot"></i>
+          <span data-ar="موقعنا بالظهران" data-en="Our Location">موقعنا بالظهران</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Architectural Hairline Info Bar ==================== -->
+  <div class="arch-bar">
+    <div class="container">
+      <div class="arch-bar-inner">
+        <a href="https://maps.app.goo.gl/vSbAHZfCay75oWnM6" target="_blank" class="arch-item">
+          <span class="arch-strong" dir="ltr">★ 4.5</span>
+          <span class="arch-muted" dir="ltr">(868+)</span>
+        </a>
+
+        <span class="arch-sep" aria-hidden="true"></span>
+
+        <a href="#visit" class="arch-item">
+          <span data-ar="الظهران · الدانة الشمالية" data-en="Dhahran · Al Danah">الظهران · الدانة الشمالية</span>
+        </a>
+
+        <span class="arch-sep" aria-hidden="true"></span>
+
+        <a href="#visit" class="arch-item">
+          <span class="arch-live-dot" aria-hidden="true"></span>
+          <span data-ar="يومياً من 5:30 ص" data-en="Daily from 5:30 AM">يومياً من 5:30 ص</span>
+        </a>
+
+        <span class="arch-sep" aria-hidden="true"></span>
+
+        <a href="#partners" class="arch-item">
+          <span data-ar="خصم الشركاء" data-en="Partner Perks">خصم الشركاء</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== Architectural Brew Board (لوحة البار المعمارية) ==================== -->
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" dir="ltr">珈琲 · THE BREW BOARD</span>
+        <h2 class="section-title" data-ar="قائمة المشروبات والحلويات" data-en="Beverages &amp; Artisanal Sweets">قائمة المشروبات والحلويات</h2>
+        <p class="section-desc"
+          data-ar="لوحة بار jū — محضرة يومياً بأعلى معايير الإتقان من محاصيلنا المختارة وماتشا شيزوكا اليابانية الأصيلة. اضغط على أي مشروب للتجهيز المسبق."
+          data-en="The jū. Brew Board — handcrafted daily with single-origin beans and ceremonial Japanese matcha. Tap any item to order directly.">
+          لوحة بار jū — محضرة يومياً بأعلى معايير الإتقان من محاصيلنا المختارة وماتشا شيزوكا اليابانية الأصيلة. اضغط على أي مشروب للتجهيز المسبق.
+        </p>
+      </div>
+
+      <!-- Architectural Brew Board -->
+      <div class="brew-board reveal">
+        <div class="brew-board-grid">
+
+          <!-- Column 1 -->
+          <div class="brew-board-col">
+
+            <!-- 01 / BARISTA FILTER & V60 -->
+            <div class="board-group">
+              <div class="board-group-header">
+                <span class="board-group-idx" dir="ltr">01 /</span>
+                <h3 class="board-group-title" data-ar="التقطير المقطر (V60)" data-en="BARISTA FILTER &amp; V60">التقطير المقطر (V60)</h3>
+                <span class="board-group-badge" dir="ltr">POUR-OVER</span>
+              </div>
+
+              <div class="board-items-list">
+                <div class="board-item js-menu-item"
+                     data-title-ar="قهوة اليوم الحارة"
+                     data-title-en="Coffee of the Day (Hot)"
+                     data-price="7.99 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-v60.jpg" alt="قهوة اليوم الحارة" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="قهوة اليوم الحارة" data-en="Coffee of the Day (Hot)">قهوة اليوم الحارة</span>
+                      <span class="board-item-en" dir="ltr">Coffee of the day "Hot"</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">7.99</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="محصول كلاسيكي فاخر (خلطة أدهم) بنكهات غنية ومتوازنة لبداية يوم هادئة." data-en="Freshly brewed daily from classic Adham roast with rich balanced notes.">محصول كلاسيكي فاخر (خلطة أدهم) بنكهات غنية ومتوازنة لبداية يوم هادئة.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="القهوة المقطرة (V60)"
+                     data-title-en="Filtered Coffee (V60)"
+                     data-price="14 / 15 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-v60.jpg" alt="القهوة المقطرة (V60)" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="القهوة المقطرة (V60)" data-en="Filtered Coffee (V60)">القهوة المقطرة (V60)</span>
+                      <span class="board-item-en" dir="ltr">Filtered Coffee V60</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">14 / 15</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="مقطرة يدوياً بدقة — قوجي إثيوبيا أو السلفادور (حار 14 · مثلج 15)." data-en="Precision hand pour-over — Ethiopia Guji or El Salvador (Hot 14 · Iced 15).">مقطرة يدوياً بدقة — قوجي إثيوبيا أو السلفادور (حار 14 · مثلج 15).</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="V60 محاصيل حصرية"
+                     data-title-en="Special Reserve Microlot (V60)"
+                     data-price="18 / 20 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-v60.jpg" alt="V60 محاصيل حصرية" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="V60 محاصيل حصرية" data-en="Special Reserve Microlot">V60 محاصيل حصرية</span>
+                      <span class="board-item-en" dir="ltr">Reserve Microlots (V60)</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">18 / 20</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="إرينا إندونيسيا، كيت كات البرازيل، أو أناناس كولومبيا (حار 18 · مثلج 20)." data-en="Erina Indonesia, Kit Kat Brazil, or Pineapples Colombia (Hot 18 · Iced 20).">إرينا إندونيسيا، كيت كات البرازيل، أو أناناس كولومبيا (حار 18 · مثلج 20).</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 03 / MATCHA & SIGNATURE -->
+            <div class="board-group">
+              <div class="board-group-header">
+                <span class="board-group-idx" dir="ltr">03 /</span>
+                <h3 class="board-group-title" data-ar="الماتشا والسيجنتشر" data-en="CEREMONIAL MATCHA &amp; SIGNATURE">الماتشا والسيجنتشر</h3>
+                <span class="board-group-badge" dir="ltr">HOUSE CRAFT</span>
+              </div>
+
+              <div class="board-items-list">
+                <div class="board-item js-menu-item"
+                     data-title-ar="ماتشا jū الفاخرة"
+                     data-title-en="Ceremonial Matcha Latte"
+                     data-price="21 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-matcha.jpg" alt="ماتشا jū الفاخرة" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="ماتشا jū الفاخرة" data-en="Ceremonial Matcha Latte">ماتشا jū الفاخرة</span>
+                      <span class="board-item-en" dir="ltr">Ceremonial Matcha Latte</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">21</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="ماتشا كاجورا مستوردة من مرتفعات شيزوكا اليابانية، مخفوقة مع الحليب الطازج." data-en="Kagura matcha from Shizuoka, Japan, whisked to order with chilled milk.">ماتشا كاجورا مستوردة من مرتفعات شيزوكا اليابانية، مخفوقة مع الحليب الطازج.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="ليمونادة الإسبريسو jū"
+                     data-title-en="Jū's Espresso Lemonade"
+                     data-price="21 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-signature.jpg" alt="ليمونادة الإسبريسو jū" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="ليمونادة الإسبريسو jū" data-en="Jū's Espresso Lemonade">ليمونادة الإسبريسو jū</span>
+                      <span class="board-item-en" dir="ltr">Jū's Espresso Lemonade</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">21</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="ابتكار jū الحصري: ليموناضة حمضية منعشة مع شوت إسبريسو مثلج بطبقات متناسقة." data-en="House creation pairing zesty citrus lemonade with a crisp chilled espresso float.">ابتكار jū الحصري: ليموناضة حمضية منعشة مع شوت إسبريسو مثلج بطبقات متناسقة.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="كركديه مثلج منعش"
+                     data-title-en="Roselle Hibiscus Iced"
+                     data-price="14 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-coldbrew.jpg" alt="كركديه مثلج منعش" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="كركديه مثلج منعش" data-en="Roselle Hibiscus Iced">كركديه مثلج منعش</span>
+                      <span class="board-item-en" dir="ltr">Roselle Hibiscus Iced</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">14</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="مشروب زهور الكركديه الطبيعية 100% بنكهة فاكهية ياقوتية تروي العطش." data-en="100% natural crimson hibiscus blossoms steeped cold for botanical refreshment.">مشروب زهور الكركديه الطبيعية 100% بنكهة فاكهية ياقوتية تروي العطش.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 05 / GATHERINGS & BOTTLES -->
+            <div class="board-group">
+              <div class="board-group-header">
+                <span class="board-group-idx" dir="ltr">05 /</span>
+                <h3 class="board-group-title" data-ar="بوكسات الجمعات" data-en="GATHERINGS &amp; BOTTLES">بوكسات الجمعات</h3>
+                <span class="board-group-badge" dir="ltr">1.5 LITER</span>
+              </div>
+
+              <div class="board-items-list">
+                <div class="board-item js-menu-item"
+                     data-title-ar="بوكس قهوة اليوم (1.5 لتر)"
+                     data-title-en="Coffee of the Day Box (1.5L)"
+                     data-price="60 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-box.jpg" alt="بوكس قهوة اليوم (1.5 لتر)" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="بوكس قهوة اليوم (1.5 لتر)" data-en="Coffee of the Day Box (1.5L)">بوكس قهوة اليوم (1.5 لتر)</span>
+                      <span class="board-item-en" dir="ltr">Coffee Box 1.5L</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">60</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="يكفي من 8 إلى 10 أكواب مع حافظة حرارية وكافة مستلزمات الضيافة." data-en="Serves 8–10 cups with insulated thermal heat retention and cups included.">يكفي من 8 إلى 10 أكواب مع حافظة حرارية وكافة مستلزمات الضيافة.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Column 2 -->
+          <div class="brew-board-col">
+
+            <!-- 02 / ESPRESSO BAR -->
+            <div class="board-group">
+              <div class="board-group-header">
+                <span class="board-group-idx" dir="ltr">02 /</span>
+                <h3 class="board-group-title" data-ar="الإسبريسو بار" data-en="ESPRESSO BAR">الإسبريسو بار</h3>
+                <span class="board-group-badge" dir="ltr">SHOT &amp; MILK</span>
+              </div>
+
+              <div class="board-items-list">
+                <div class="board-item js-menu-item"
+                     data-title-ar="إسبريسو"
+                     data-title-en="Specialty Espresso"
+                     data-price="9 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-espresso.jpg" alt="إسبريسو" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="إسبريسو" data-en="Specialty Espresso">إسبريسو</span>
+                      <span class="board-item-en" dir="ltr">Espresso Single / Double</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">9</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="خلاصة البن المختص، قوام كثيف وطبقة كريما ذهبية غنية بالإيحاءات العطرية." data-en="Pure specialty extraction with syrupy body, golden crema, and bright aromatics.">خلاصة البن المختص، قوام كثيف وطبقة كريما ذهبية غنية بالإيحاءات العطرية.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="كورتادو"
+                     data-title-en="Cortado"
+                     data-price="12 / 13 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-latte.jpg" alt="كورتادو" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="كورتادو" data-en="Cortado">كورتادو</span>
+                      <span class="board-item-en" dir="ltr">Cortado</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">12 / 13</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="توازن متساوٍ بين الإسبريسو المركز والحليب المبخر (حار 12 · مثلج 13)." data-en="Equal parts rich espresso and textured warm milk (Hot 12 · Iced 13).">توازن متساوٍ بين الإسبريسو المركز والحليب المبخر (حار 12 · مثلج 13).</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="أمريكانو"
+                     data-title-en="Americano"
+                     data-price="13 / 14 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-espresso.jpg" alt="أمريكانو" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="أمريكانو" data-en="Americano">أمريكانو</span>
+                      <span class="board-item-en" dir="ltr">Americano</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">13 / 14</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="إسبريسو شلشلي الإثيوبي النقي مع الماء المفلتر (حار 13 · مثلج 14)." data-en="Ethiopian Chelchele espresso lengthened with pure water (Hot 13 · Iced 14).">إسبريسو شلشلي الإثيوبي النقي مع الماء المفلتر (حار 13 · مثلج 14).</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="فلات وايت"
+                     data-title-en="Flat White"
+                     data-price="14 / 15 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-latte.jpg" alt="فلات وايت" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="فلات وايت" data-en="Flat White">فلات وايت</span>
+                      <span class="board-item-en" dir="ltr">Flat White</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">14 / 15</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="جرعة دبل ريستريتو غنية مع حليب مخملي فائق النعومة (حار 14 · مثلج 15)." data-en="Double ristretto balanced with silky microfoam milk (Hot 14 · Iced 15).">جرعة دبل ريستريتو غنية مع حليب مخملي فائق النعومة (حار 14 · مثلج 15).</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="كافيه لاتيه"
+                     data-title-en="Caffè Latte"
+                     data-price="16 / 17 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-latte.jpg" alt="كافيه لاتيه" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="كافيه لاتيه" data-en="Caffè Latte">كافيه لاتيه</span>
+                      <span class="board-item-en" dir="ltr">Caffe Latte</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">16 / 17</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="حليب طازج ناعم بقوام كريمي ونكهة إسبريسو لطيفة (حار 16 · مثلج 17)." data-en="Velvety fresh milk poured over smooth espresso (Hot 16 · Iced 17).">حليب طازج ناعم بقوام كريمي ونكهة إسبريسو لطيفة (حار 16 · مثلج 17).</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="فريدو إسبريسو"
+                     data-title-en="Freddo Espresso"
+                     data-price="14 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-coldbrew.jpg" alt="فريدو إسبريسو" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="فريدو إسبريسو" data-en="Freddo Espresso">فريدو إسبريسو</span>
+                      <span class="board-item-en" dir="ltr">Freddo Espresso</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">14</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="إسبريسو مخفوق بارداً مع مكعبات الثلج لرغوة غنية ومنعشة بدون حليب." data-en="Double espresso shaken cold over ice for a dense, dairy-free rich crema.">إسبريسو مخفوق بارداً مع مكعبات الثلج لرغوة غنية ومنعشة بدون حليب.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 04 / SWEETS & BAKE -->
+            <div class="board-group">
+              <div class="board-group-header">
+                <span class="board-group-idx" dir="ltr">04 /</span>
+                <h3 class="board-group-title" data-ar="الحلويات والخيارات الصحية" data-en="SWEETS &amp; ORGANIC BAKE">الحلويات والخيارات الصحية</h3>
+                <span class="board-group-badge" dir="ltr">ARTISANAL</span>
+              </div>
+
+              <div class="board-items-list">
+                <div class="board-item js-menu-item"
+                     data-title-ar="كيكة شوكولاتة بروكلين"
+                     data-title-en="Brooklyn Blackout Cake"
+                     data-price="22 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-cake-choc.jpg" alt="كيكة شوكولاتة بروكلين" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="كيكة شوكولاتة بروكلين" data-en="Brooklyn Blackout Cake">كيكة شوكولاتة بروكلين</span>
+                      <span class="board-item-en" dir="ltr">Brooklyn Blackout Cake</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">22</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="طبقات كيك داكنة غنية بحشوة البودينغ البلجيكي اللذيذ، ترافق القهوة بامتياز." data-en="Decadent dark cocoa sponge layered with Belgian chocolate pudding.">طبقات كيك داكنة غنية بحشوة البودينغ البلجيكي اللذيذ، ترافق القهوة بامتياز.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="كيكة الجزر الهادئة"
+                     data-title-en="Mellow Carrot Cake"
+                     data-price="20 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-cake-carrot.jpg" alt="كيكة الجزر الهادئة" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="كيكة الجزر الهادئة" data-en="Mellow Carrot Cake">كيكة الجزر الهادئة</span>
+                      <span class="board-item-en" dir="ltr">Mellow Carrot Cake</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">20</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="كيكة جزر ناعمة بنكهة القرفة وجوز البيكان مع كريمة الجبن الخفيفة." data-en="Spiced carrot sponge folded with toasted pecans and airy cream cheese.">كيكة جزر ناعمة بنكهة القرفة وجوز البيكان مع كريمة الجبن الخفيفة.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="إم سي كيك (MC Cake)"
+                     data-title-en="MC Signature Cake"
+                     data-price="24 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-cake-choc.jpg" alt="إم سي كيك (MC Cake)" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="إم سي كيك (MC Cake)" data-en="MC Signature Cake">إم سي كيك (MC Cake)</span>
+                      <span class="board-item-en" dir="ltr">MC Cake Limited</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">24</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="كيكة jū المبتكرة بالكراميل والشوكولاتة المترفة، بكميات محدودة يومياً." data-en="House specialty layered with velvety caramel and rich chocolate.">كيكة jū المبتكرة بالكراميل والشوكولاتة المترفة، بكميات محدودة يومياً.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="مانجو ترافل"
+                     data-title-en="Mango Truffle"
+                     data-price="22 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-truffle.jpg" alt="مانجو ترافل" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="مانجو ترافل" data-en="Mango Truffle">مانجو ترافل</span>
+                      <span class="board-item-en" dir="ltr">Mango Truffle</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">22</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="طبقات تشيزكيك مخملية باردة مع قطع المانجو الذهبية الطازجة." data-en="Chilled velvety cheesecake layers with fresh golden mango chunks.">طبقات تشيزكيك مخملية باردة مع قطع المانجو الذهبية الطازجة.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="دونات الجبن وترافل الشوكولاتة"
+                     data-title-en="Cheese Donuts &amp; Truffles"
+                     data-price="16 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-truffle.jpg" alt="دونات الجبن وترافل الشوكولاتة" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="دونات الجبن وترافل الشوكولاتة" data-en="Cheese Donuts &amp; Truffles">دونات الجبن وترافل الشوكولاتة</span>
+                      <span class="board-item-en" dir="ltr">Cheese Donuts &amp; Truffles</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">16</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="لقيمات دونات الجبن الشهية وترافل الشوكولاتة الذائبة، الحجم المثالي للقهوة." data-en="Bite-sized cream cheese donuts and melted cocoa truffles.">لقيمات دونات الجبن الشهية وترافل الشوكولاتة الذائبة، الحجم المثالي للقهوة.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="كرات البروتين الصحية (عضوي)"
+                     data-title-en="Organic Protein Bites"
+                     data-price="14 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-healthy.jpg" alt="كرات البروتين الصحية (عضوي)" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="كرات البروتين الصحية (عضوي)" data-en="Organic Protein Bites">كرات البروتين الصحية (عضوي)</span>
+                      <span class="board-item-en" dir="ltr">Protein Bites 100% Organic</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">14</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="كرات طاقة طبيعية خالية من السكر المكرر، غنية بالبروتين ومثالية للرياضيين." data-en="Natural organic energy bites with zero refined sugar.">كرات طاقة طبيعية خالية من السكر المكرر، غنية بالبروتين ومثالية للرياضيين.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="board-item js-menu-item"
+                     data-title-ar="لوح الشوفان وزبدة الفول السوداني"
+                     data-title-en="Peanut Butter Oat Bar"
+                     data-price="15 SAR"
+                     role="button"
+                     tabindex="0">
+                  <div class="board-item-thumb">
+                    <img src="images/menu-healthy.jpg" alt="لوح الشوفان وزبدة الفول السوداني" loading="lazy">
+                  </div>
+                  <div class="board-item-body">
+                    <div class="board-item-row">
+                    <div class="board-item-titles">
+                      <span class="board-item-name" data-ar="لوح الشوفان وزبدة الفول السوداني" data-en="Peanut Butter Oat Bar">لوح الشوفان وزبدة الفول السوداني</span>
+                      <span class="board-item-en" dir="ltr">Peanut Oat Bar</span>
+                    </div>
+                    <span class="board-item-leader" aria-hidden="true"></span>
+                    <div class="board-item-price-wrap" dir="ltr">
+                      <span class="board-item-price">15</span>
+                      <small class="board-item-currency" data-ar="ر.س" data-en="SAR">ر.س</small>
+                    </div>
+                  </div>
+                    <div class="board-item-sub">
+                    <span class="board-item-note" data-ar="لوح شوفان عضوي مخبوز بزبدة الفول السوداني الطبيعية وعسل النحل النقي." data-en="Organic rolled oats baked with roasted peanut butter and raw honey.">لوح شوفان عضوي مخبوز بزبدة الفول السوداني الطبيعية وعسل النحل النقي.</span>
+                    <span class="board-item-action" dir="ltr"><i class="fab fa-whatsapp"></i><span data-ar="اطلب" data-en="Order">اطلب</span></span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Brew Board Bottom Bar -->
+        <div class="brew-board-footer">
+          <div class="brew-board-footer-info">
+            <span class="brew-board-footer-tag" dir="ltr">KŌHĪ SERVICE</span>
+            <p data-ar="جميع المشروبات تُحضر طازجة فور طلبها مع خيارات الحليب النباتي (شوفان / لوز) وتخصيص درجة الحرارة. اضغط على أي صنف للتجهيز المسبق."
+               data-en="All beverages are crafted fresh to order with alternative milk options (oat / almond) and temperature preferences. Tap any item to order ahead.">
+              جميع المشروبات تُحضر طازجة فور طلبها مع خيارات الحليب النباتي (شوفان / لوز) وتخصيص درجة الحرارة. اضغط على أي صنف للتجهيز المسبق.
+            </p>
+          </div>
+          <a href="https://wa.me/966547586822?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%83%D8%A7%D9%81%D9%8A%D9%87%20j%C5%AB%20%E2%98%95%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%85%D9%86%D9%83%D9%85"
+             target="_blank"
+             class="brew-board-footer-btn"
+             dir="ltr">
+            <i class="fab fa-whatsapp"></i>
+            <span data-ar="طلب مباشر عبر واتساب (+966 54 758 6822)" data-en="WhatsApp Express Order (+966 54 758 6822)">طلب مباشر عبر واتساب (+966 54 758 6822)</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Special Beans Showcase (Official jū. Roastery Cards from beans1) ==================== -->
+  <section id="beans" class="section beans-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" dir="ltr">珈琲 · SPECIAL BEANS &amp; HARVESTS</span>
+        <h2 class="section-title" data-ar="محاصيل البن والماتشا الفاخرة لدى jū" data-en="jū. Official Special Beans &amp; Matcha">محاصيل البن والماتشا الفاخرة لدى jū</h2>
+        <p class="section-desc" data-ar="بطاقات محاصيلنا الرسمية المنتقاة بعناية لمشروبات التقطير والإسبريسو والماتشا اليابانية الأصيلة — اضغط على أي بطاقة لتكبيرها أو تقليب وجهي البطاقة." data-en="Our official roastery tasting cards curated for V60 filter, espresso, and stone-milled Japanese matcha—tap any card to zoom or flip.">بطاقات محاصيلنا الرسمية المنتقاة بعناية لمشروبات التقطير والإسبريسو والماتشا اليابانية الأصيلة — اضغط على أي بطاقة لتكبيرها أو تقليب وجهي البطاقة.</p>
+      </div>
+
+      <!-- 4 Official Special Crops from images/beans1 -->
+      <div class="beans-grid">
+
+        <!-- Crop 1: ERINA - Indonesia -->
+        <div class="bean-card reveal reveal-delay-1">
+          <div class="bean-art-wrap has-flip" tabindex="0">
+            <img src="images/beans1/errana%20.jpg" alt="ERINA Indonesia — بطاقة المحصول الرسمية لدى jū" class="bean-art-img bean-art-primary" loading="lazy">
+            <img src="images/beans1/spiecal%20bean.jpg" alt="ERINA Indonesia Story — jū Specialty Kōhī" class="bean-art-img bean-art-secondary" loading="lazy">
+            <span class="bean-floating-tag" dir="ltr">INDONESIA · 1700M</span>
+            <button type="button" class="bean-flip-btn" aria-label="Flip Bean Card">
+              <i class="fas fa-rotate"></i>
+              <span data-ar="قصة المحصول" data-en="Story Side">قصة المحصول</span>
+            </button>
+          </div>
+          <div class="bean-card-body">
+            <div>
+              <span class="bean-badge" data-ar="محصول فاخر · مجففة" data-en="Special Beans · Dried">محصول فاخر · مجففة</span>
+              <h3 class="bean-name" data-ar="إرينا — إندونيسيا" data-en="ERINA — Indonesia">إرينا — إندونيسيا</h3>
+              <div class="bean-origin" data-ar="مرتفعات جايو (1700م) · معالجة مجففة" data-en="Gayo Highlands (1700m) · Dried Process">مرتفعات جايو (1700م) · معالجة مجففة</div>
+              <p class="bean-desc" data-ar="ملامح فاكهية متوازنة تبرز فيها نكهات الخوخ والتوت والباشن فروت والكمثرى بقوام متوسط وحلاوة طبيعية للفلتر والإسبريسو." data-en="Balanced fruity sweetness from Gayo at 1700m highlighting peach, berry, passion fruit, and pear—ideal for filter &amp; espresso.">ملامح فاكهية متوازنة تبرز فيها نكهات الخوخ والتوت والباشن فروت والكمثرى بقوام متوسط وحلاوة طبيعية للفلتر والإسبريسو.</p>
+            </div>
+            <div class="bean-notes">
+              <span class="note-tag" data-ar="خوخ" data-en="Peach">خوخ</span>
+              <span class="note-tag" data-ar="توت" data-en="Berry">توت</span>
+              <span class="note-tag" data-ar="باشن فروت" data-en="Passion Fruit">باشن فروت</span>
+              <span class="note-tag" data-ar="كمثرى" data-en="Pear">كمثرى</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crop 2: KIT KAT - Brazil (Cerrado) -->
+        <div class="bean-card reveal reveal-delay-2">
+          <div class="bean-art-wrap has-flip" tabindex="0">
+            <img src="images/beans1/kit%20kat.jpg" alt="Kit Kat Brazil Cerrado — بطاقة المحصول الرسمية لدى jū" class="bean-art-img bean-art-primary" loading="lazy">
+            <img src="images/beans1/kit%20kat%20brazil.jpg" alt="Kit Kat Brazil Cerrado Story — jū Specialty Kōhī" class="bean-art-img bean-art-secondary" loading="lazy">
+            <span class="bean-floating-tag" dir="ltr">BRAZIL · IBC12</span>
+            <button type="button" class="bean-flip-btn" aria-label="Flip Bean Card">
+              <i class="fas fa-rotate"></i>
+              <span data-ar="قصة المحصول" data-en="Story Side">قصة المحصول</span>
+            </button>
+          </div>
+          <div class="bean-card-body">
+            <div>
+              <span class="bean-badge" data-ar="محصول فاخر · أنفيوجن" data-en="Special Beans · Infusion">محصول فاخر · أنفيوجن</span>
+              <h3 class="bean-name" data-ar="كيت كات — البرازيل (سيرادو)" data-en="Kit Kat — Brazil (Cerrado)">كيت كات — البرازيل (سيرادو)</h3>
+              <div class="bean-origin" data-ar="منطقة سيرادو · سلالة IBC12 · أنفيوجن" data-en="Cerrado Region · Variety IBC12 · Infusion">منطقة سيرادو · سلالة IBC12 · أنفيوجن</div>
+              <p class="bean-desc" data-ar="من أبرز مناطق زراعة البن في البرازيل، يتميز بنكهات واضحة ودافئة من الفانيلا والشوكولاتة والكراميل والبندق بقوام متوسط وتوازن مثالي." data-en="From Brazil's renowned Cerrado region, delivering warm, comforting notes of vanilla, chocolate, caramel, and roasted hazelnut.">من أبرز مناطق زراعة البن في البرازيل، يتميز بنكهات واضحة ودافئة من الفانيلا والشوكولاتة والكراميل والبندق بقوام متوسط وتوازن مثالي.</p>
+            </div>
+            <div class="bean-notes">
+              <span class="note-tag" data-ar="فانيلا" data-en="Vanilla">فانيلا</span>
+              <span class="note-tag" data-ar="شوكولاتة" data-en="Chocolate">شوكولاتة</span>
+              <span class="note-tag" data-ar="كراميل" data-en="Caramel">كراميل</span>
+              <span class="note-tag" data-ar="بندق" data-en="Hazelnut">بندق</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crop 3: Pineapples - Colombia -->
+        <div class="bean-card reveal reveal-delay-3">
+          <div class="bean-art-wrap has-flip" tabindex="0">
+            <img src="images/beans1/piapple.jpg" alt="Pineapples Colombia — بطاقة المحصول الرسمية لدى jū" class="bean-art-img bean-art-primary" loading="lazy">
+            <img src="images/beans1/cocoant%20with%20pinapple.jpg" alt="Pineapples & Coconut Colombia — jū Specialty Kōhī" class="bean-art-img bean-art-secondary" loading="lazy">
+            <span class="bean-floating-tag" dir="ltr">COLOMBIA · INFUSION</span>
+            <button type="button" class="bean-flip-btn" aria-label="Flip Bean Card">
+              <i class="fas fa-rotate"></i>
+              <span data-ar="قصة المحصول" data-en="Story Side">قصة المحصول</span>
+            </button>
+          </div>
+          <div class="bean-card-body">
+            <div>
+              <span class="bean-badge" data-ar="محصول فاخر · فاكهي عالٍ" data-en="Special Beans · High Fruitiness">محصول فاخر · فاكهي عالٍ</span>
+              <h3 class="bean-name" data-ar="أناناس — كولومبيا" data-en="Pineapples — Colombia">أناناس — كولومبيا</h3>
+              <div class="bean-origin" data-ar="كولومبيا · معالجة أنفيوجن" data-en="Colombia · Infusion Process">كولومبيا · معالجة أنفيوجن</div>
+              <p class="bean-desc" data-ar="محصول كولومبي ذو فاكهية عالية وحلاوة كاملة (5/5)، يبرز فيه الأناناس الاستوائي بوضوح مع لمسات ناعمة من جوز الهند والكيوي." data-en="High-fruitiness Colombian infusion bursting with distinctive tropical pineapple alongside gentle coconut and kiwi sweetness.">محصول كولومبي ذو فاكهية عالية وحلاوة كاملة (5/5)، يبرز فيه الأناناس الاستوائي بوضوح مع لمسات ناعمة من جوز الهند والكيوي.</p>
+            </div>
+            <div class="bean-notes">
+              <span class="note-tag" data-ar="أناناس استوائي" data-en="Pineapple">أناناس استوائي</span>
+              <span class="note-tag" data-ar="جوز الهند" data-en="Coconut">جوز الهند</span>
+              <span class="note-tag" data-ar="كيوي" data-en="Kiwi">كيوي</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crop 4: Kagura Matcha - Shizuoka, Japan -->
+        <div class="bean-card reveal">
+          <div class="bean-art-wrap" tabindex="0">
+            <img src="images/beans1/matacha%20crop.jpg" alt="Kagura Matcha Shizuoka Japan — jū Specialty Kōhī" class="bean-art-img bean-art-primary" loading="lazy">
+            <span class="bean-floating-tag" dir="ltr">SHIZUOKA · JAPAN</span>
+          </div>
+          <div class="bean-card-body">
+            <div>
+              <span class="bean-badge badge-matcha" data-ar="حصاد اليابان · احتفالية" data-en="Japanese Harvest · Ceremonial">حصاد اليابان · احتفالية</span>
+              <h3 class="bean-name" data-ar="ماتشا كاجورا — شيزوكا" data-en="Kagura Matcha — Shizuoka">ماتشا كاجورا — شيزوكا</h3>
+              <div class="bean-origin" data-ar="مرتفعات شيزوكا، اليابان · مطحونة بالحجر" data-en="Shizuoka Prefecture, Japan · Stone-Milled">مرتفعات شيزوكا، اليابان · مطحونة بالحجر</div>
+              <p class="bean-desc" data-ar="مباشرة من مرتفعات شيزوكا الضبابية في اليابان؛ مقطوفة يدوياً ومظللة ومطحونة بالحجر لتمنحك لوناً أخضر زاهياً وطعم أومامي نقي." data-en="Straight from the misty highlands of Shizuoka, Japan—hand-picked, shade-grown, and stone-milled for vibrant green pure umami.">مباشرة من مرتفعات شيزوكا الضبابية في اليابان؛ مقطوفة يدوياً ومظللة ومطحونة بالحجر لتمنحك لوناً أخضر زاهياً وطعم أومامي نقي.</p>
+            </div>
+            <div class="bean-notes">
+              <span class="note-tag" data-ar="أومامي غني" data-en="Rich Umami">أومامي غني</span>
+              <span class="note-tag" data-ar="قطف يدوي" data-en="Hand-Picked">قطف يدوي</span>
+              <span class="note-tag" data-ar="طحن حجري" data-en="Stone-Milled">طحن حجري</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Real Brew Bar Cards Display Banner (corp1.jpg) + Additional Bar Origins -->
+      <div class="beans-bar-showcase reveal">
+        <div class="beans-bar-photo" tabindex="0">
+          <img src="images/beans1/corp1.jpg" alt="بطاقات المحاصيل على بار التقطير في مقهى jū" loading="lazy">
+        </div>
+        <div class="beans-bar-text">
+          <span class="beans-bar-eyebrow" dir="ltr">AT THE JŪ. BREW BAR</span>
+          <h4 data-ar="اختر محصولك المفضل مباشرة من بار التقطير" data-en="Select Your Harvest Directly at Our Pour-Over Bar">اختر محصولك المفضل مباشرة من بار التقطير</h4>
+          <p data-html="true"
+            data-ar="يتوفر أيضاً على البار للتقطير والإسبريسو: <strong>قوجي إثيوبيا (Guji)</strong> · <strong>السلفادور (El Salvador)</strong> · <strong>كولومبيا خالية من الكافيين (Decaf)</strong> · <strong>شلشلي إثيوبيا</strong>"
+            data-en="Also available daily on our bar: <strong>Ethiopia Guji</strong> · <strong>El Salvador</strong> · <strong>Colombia Sugarcane Decaf</strong> · <strong>Ethiopia Chelchele</strong>">
+            يتوفر أيضاً على البار للتقطير والإسبريسو: <strong>قوجي إثيوبيا (Guji)</strong> · <strong>السلفادور (El Salvador)</strong> · <strong>كولومبيا خالية من الكافيين (Decaf)</strong> · <strong>شلشلي إثيوبيا</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Catering Packages (باقات الضيافة) ==================== -->
+  <section id="catering" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-ar="ضيافة jū لمناسباتكم" data-en="EVENT & CORPORATE CATERING">ضيافة jū لمناسباتكم</span>
+        <h2 class="section-title" data-ar="باقات الضيافة والمناسبات (Catering)" data-en="Specialty Catering Packages">باقات الضيافة والمناسبات (Catering)</h2>
+        <p class="section-desc" data-ar="نرتقي بمناسباتكم واجتماعات شركاتكم في الشرقية بضيافة قهوة مختصة متكاملة بخدمة ذاتية راقية." data-en="Elevate your corporate meetings and private gatherings across the Eastern Province with refined self-service specialty coffee.">نرتقي بمناسباتكم واجتماعات شركاتكم في الشرقية بضيافة قهوة مختصة متكاملة بخدمة ذاتية راقية.</p>
+      </div>
+
+      <div class="catering-grid">
+
+        <!-- Package 1 -->
+        <div class="catering-card reveal reveal-delay-1">
+          <div>
+            <div class="catering-title" data-ar="1. باقة قهوة اليوم الأساسية" data-en="1. Classic Coffee Package">1. باقة قهوة اليوم الأساسية</div>
+            <div class="catering-en">Classic Package (50 Cups)</div>
+            <ul class="catering-features">
+              <li><i class="fas fa-check-circle"></i> <span data-ar="50 كوب قهوة اليوم فاخرة (مقاس 7oz)" data-en="50 cups of freshly brewed Coffee of the Day (7oz)">50 كوب قهوة اليوم فاخرة (مقاس 7oz)</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="حافظة قهوة حرارية تحفظ السخونة لساعات" data-en="Insulated thermal dispenser keeping coffee hot for hours">حافظة قهوة حرارية تحفظ السخونة لساعات</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="كافة مستلزمات الضيافة (أكواب، ملاعق، سكر)" data-en="Complete hospitality kit (branded cups, stirrers, sweeteners)">كافة مستلزمات الضيافة (أكواب، ملاعق، سكر)</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="تنسيق خدمة ذاتية سهل وأنيق (Self-Service)" data-en="Clean, minimalist self-service presentation">تنسيق خدمة ذاتية سهل وأنيق (Self-Service)</span></li>
+            </ul>
+          </div>
+          <button class="btn-primary btn-book-catering" data-package="باقة قهوة اليوم الأساسية (50 كوب)" data-package-en="Classic Coffee Package (50 Cups)">
+            <i class="fab fa-whatsapp"></i> <span data-ar="طلب وحجز الباقة" data-en="Book This Package">طلب وحجز الباقة</span>
+          </button>
+        </div>
+
+        <!-- Package 2 (Featured) -->
+        <div class="catering-card featured reveal reveal-delay-2">
+          <span class="featured-ribbon" data-ar="الأكثر طلباً" data-en="Most Popular">الأكثر طلباً</span>
+          <div>
+            <div class="catering-title" data-ar="2. باقة قهوة اليوم مع الحلى" data-en="2. Coffee & Desserts Package">2. باقة قهوة اليوم مع الحلى</div>
+            <div class="catering-en">Coffee of the day &amp; Desserts Package</div>
+            <ul class="catering-features">
+              <li><i class="fas fa-check-circle"></i> <span data-ar="حافظتين قهوة اليوم حار سعة كبيرة" data-en="2 large thermal dispensers of hot specialty coffee">حافظتين قهوة اليوم حار سعة كبيرة</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="50 كوب قهوة مختصة (مقاس 7oz)" data-en="50 branded specialty coffee cups (7oz)">50 كوب قهوة مختصة (مقاس 7oz)</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="20 قطعة حلى فاخرة من اختياركم" data-en="20 artisanal dessert pieces of your choice">20 قطعة حلى فاخرة من اختياركم</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="خيارات الحلى: دونات جبن، ترافل، روكي رود، كوكيز" data-en="Selection: Cheese donuts, truffles, rocky road, cookies">خيارات الحلى: دونات جبن، ترافل، روكي رود، كوكيز</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="خيارات حلى صحية متاحة (كرات البروتين وألواح الشوفان)" data-en="Organic options available (protein bites & oat bars)">خيارات حلى صحية متاحة (كرات البروتين وألواح الشوفان)</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="إمكانية إضافة حافظة قهوة إضافية حسب الرغبة" data-en="Optional extra coffee dispenser add-on available">إمكانية إضافة حافظة قهوة إضافية حسب الرغبة</span></li>
+            </ul>
+          </div>
+          <button class="btn-primary btn-book-catering" data-package="باقة قهوة اليوم مع الحلى (حافظتين + 50 كوب + 20 قطعة حلى)" data-package-en="Coffee & Desserts Package (2 Dispensers + 50 Cups + 20 Desserts)">
+            <i class="fab fa-whatsapp"></i> <span data-ar="طلب وحجز الباقة" data-en="Book This Package">طلب وحجز الباقة</span>
+          </button>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="catering-card reveal reveal-delay-3">
+          <div>
+            <div class="catering-title" data-ar="3. باقة الكركديه المنعشة" data-en="3. Iced Hibiscus Package">3. باقة الكركديه المنعشة</div>
+            <div class="catering-en">Hibiscus Package</div>
+            <ul class="catering-features">
+              <li><i class="fas fa-check-circle"></i> <span data-ar="حافظة كركديه مثلج طبيعي 100%" data-en="Chilled dispenser of 100% natural Roselle Hibiscus">حافظة كركديه مثلج طبيعي 100%</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="أكواب شفافة أنيقة مع مكعبات الثلج والشاليمو" data-en="Crystal-clear cups with ice cubes & straws included">أكواب شفافة أنيقة مع مكعبات الثلج والشاليمو</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="طعم منعش وخفيف يناسب الحفلات النهارية والجمعات" data-en="Bright botanical refreshment tailored for daytime events">طعم منعش وخفيف يناسب الحفلات النهارية والجمعات</span></li>
+              <li><i class="fas fa-check-circle"></i> <span data-ar="تجهيز سريع وتوصيل لموقع مناسبتكم" data-en="Prompt preparation & delivery to your venue">تجهيز سريع وتوصيل لموقع مناسبتكم</span></li>
+            </ul>
+          </div>
+          <button class="btn-primary btn-book-catering" data-package="باقة الكركديه المنعشة" data-package-en="Iced Hibiscus Catering Package">
+            <i class="fab fa-whatsapp"></i> <span data-ar="طلب وحجز الباقة" data-en="Book This Package">طلب وحجز الباقة</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Partners in Excellence (شركاؤنا في التميز — Official Logos) ==================== -->
+  <section id="partners" class="section" style="background: var(--color-bg-subtle);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-ar="شركاء النجاح" data-en="PARTNERS IN EXCELLENCE">شركاء النجاح</span>
+        <h2 class="section-title" data-ar="شركاؤنا في التميّز .." data-en="Partners in Excellence">شركاؤنا في التميّز ..</h2>
+        <p class="section-desc"
+          data-ar="موظفو وعملاء شركائنا لهم خصم مميز عندنا — Our partners' employees and members enjoy a special discount at jū."
+          data-en="Our partners' employees, students, and club members enjoy an exclusive privilege discount at jū. Specialty Kōhī.">
+          موظفو وعملاء شركائنا لهم خصم مميز عندنا — Our partners' employees and members enjoy a special discount at jū.
+        </p>
+      </div>
+
+      <div class="partners-box reveal">
+        <div class="partners-notice">
+          <i class="fas fa-id-card"></i>
+          <span data-ar="يُرجى إبراز العضوية أو بطاقة المنشأة للكاشير للحصول على الخصم الخاص عند زيارتكم لـ jū"
+            data-en="Kindly present your membership or company ID card at the bar to enjoy your exclusive jū. discount.">
+            يُرجى إبراز العضوية أو بطاقة المنشأة للكاشير للحصول على الخصم الخاص عند زيارتكم لـ jū
+          </span>
+        </div>
+
+        <div class="partners-columns">
+
+          <!-- Group 1: Companies with jū Discounts (6 Official Logos) -->
+          <div class="partners-group">
+            <div class="partners-group-header">
+              <h3 class="partners-group-title" data-ar="الشركات والجهات المعتمدة" data-en="Companies with jū. Discounts">الشركات والجهات المعتمدة</h3>
+              <span class="partners-group-count">06 PARTNERS</span>
+            </div>
+
+            <div class="partners-grid">
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_sharqia.png" alt="Sharqia Development Authority" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="هيئة تطوير المنطقة الشرقية" data-en="Sharqia Development Authority">هيئة تطوير المنطقة الشرقية</div>
+                  <div class="partner-cat en">Sharqia Development Authority</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_habib.png" alt="Dr Sulaiman Al Habib Medical Group" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="مجموعة د. سليمان الحبيب" data-en="Dr. Sulaiman Al Habib Group">مجموعة د. سليمان الحبيب</div>
+                  <div class="partner-cat en">Dr Sulaiman Al Habib Medical Group</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_asmo.png" alt="ASMO" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="شركة أسمو" data-en="ASMO">شركة أسمو</div>
+                  <div class="partner-cat en">ASMO Procurement &amp; Logistics</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_kfupm.png" alt="King Fahd University of Petroleum and Minerals" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="جامعة الملك فهد للبترول والمعادن" data-en="King Fahd University (KFUPM)">جامعة الملك فهد للبترول والمعادن</div>
+                  <div class="partner-cat en">KFUPM</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_aljabr.png" alt="Al Jabr Holding Company" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="شركة الجبر القابضة" data-en="Al Jabr Holding Company">شركة الجبر القابضة</div>
+                  <div class="partner-cat en">Al Jabr Holding Company</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_masco.png" alt="MASCO General Contracting" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="ماسكو للمقاولات العامة" data-en="MASCO General Contracting">ماسكو للمقاولات العامة</div>
+                  <div class="partner-cat en">MASCO Energy &amp; Contracting</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Group 2: Gyms, Pilates, Yoga & Clubs with jū Discounts (5 Official Logos) -->
+          <div class="partners-group">
+            <div class="partners-group-header">
+              <h3 class="partners-group-title" data-ar="الأندية الرياضية والاستوديوهات" data-en="Gyms, Pilates, Yoga & Clubs">الأندية الرياضية والاستوديوهات</h3>
+              <span class="partners-group-count">05 CLUBS</span>
+            </div>
+
+            <div class="partners-grid">
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_interval.png" alt="IntervalPlus CrossFit Gym" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="انترفال بلس كروسفت" data-en="IntervalPlus Gym">انترفال بلس كروسفت</div>
+                  <div class="partner-cat en">IntervalPlus CrossFit</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_align.png" alt="Align Studio" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="استوديو ألاين (Align)" data-en="Align Studio">استوديو ألاين (Align)</div>
+                  <div class="partner-cat en">Align Pilates &amp; Yoga</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_isle.png" alt="Isle Studio & Spa" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="آيل ستوديو آند سبا" data-en="Isle Studio & Spa">آيل ستوديو آند سبا</div>
+                  <div class="partner-cat en">Isle Studio &amp; Spa</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_lagree.png" alt="Lagree by Isle" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="لاغري باي آيل" data-en="Lagree by Isle">لاغري باي آيل</div>
+                  <div class="partner-cat en">Lagree Fitness Studio</div>
+                </div>
+              </div>
+
+              <div class="partner-card">
+                <div class="partner-logo-wrap">
+                  <img src="images/partners/partner_porsche.png" alt="Porsche Owners Club Saudi Arabia" loading="lazy">
+                </div>
+                <div class="partner-meta">
+                  <div class="partner-name" data-ar="نادي ملاك بورشه السعودية" data-en="Porsche Owners Club KSA">نادي ملاك بورشه السعودية</div>
+                  <div class="partner-cat en">Porsche Owners Club - Saudi Arabia</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Atmosphere & Video Reels ==================== -->
+  <section id="atmosphere" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-ar="أجواء jū" data-en="THE SANCTUARY">أجواء jū</span>
+        <h2 class="section-title" data-ar="فلسفة المكان وسحر التفاصيل" data-en="Space, Light & Quiet Craft">فلسفة المكان وسحر التفاصيل</h2>
+        <p class="section-desc" data-ar="مزيج من الأخشاب الدافئة والمايكروسمنت الهادئ، مصمم ليمنحك لحظة صفاء بعيداً عن صخب اليوم." data-en="Warm natural oak and calm micro-cement architecture designed to offer a mindful pause from the rush of the day.">مزيج من الأخشاب الدافئة والمايكروسمنت الهادئ، مصمم ليمنحك لحظة صفاء بعيداً عن صخب اليوم.</p>
+      </div>
+
+      <!-- Real Video Reels from cafe -->
+      <div class="reels-grid">
+        <div class="reel-card reveal reveal-delay-1">
+          <video autoplay muted loop playsinline poster="images/poster_1.jpg">
+            <source src="videos/1.mp4" type="video/mp4">
+          </video>
+          <div class="reel-overlay">
+            <div class="reel-title" data-ar="حرفة التقطير المتقنة" data-en="The Ritual of Pour-Over">حرفة التقطير المتقنة</div>
+            <div class="reel-desc" data-ar="كل قطرة قهوة محسوبة بدقة في بار V60" data-en="Every gram and second calibrated at our V60 bar">كل قطرة قهوة محسوبة بدقة في بار V60</div>
+          </div>
+        </div>
+
+        <div class="reel-card reveal reveal-delay-2">
+          <video autoplay muted loop playsinline poster="images/poster_2.jpg">
+            <source src="videos/2.mp4" type="video/mp4">
+          </video>
+          <div class="reel-overlay">
+            <div class="reel-title" data-ar="تفاصيل الهدوء والسكينة" data-en="Japandi Calm & Focus">تفاصيل الهدوء والسكينة</div>
+            <div class="reel-desc" data-ar="جلسات مريحة وإضاءات خافتة تبعث على التركيز" data-en="Warm ambient lighting and intimate seating for deep focus">جلسات مريحة وإضاءات خافتة تبعث على التركيز</div>
+          </div>
+        </div>
+
+        <div class="reel-card reveal reveal-delay-3">
+          <video autoplay muted loop playsinline poster="images/poster_3.jpg">
+            <source src="videos/3.mp4" type="video/mp4">
+          </video>
+          <div class="reel-overlay">
+            <div class="reel-title" data-ar="انتعاش الماتشا والمثلجات" data-en="Ceremonial Matcha & Iced Brews">انتعاش الماتشا والمثلجات</div>
+            <div class="reel-desc" data-ar="مشروبات صيفية محضرة بمكونات عضوية فاخرة" data-en="Whisked organic Uji matcha and crisp summer signatures">مشروبات صيفية محضرة بمكونات عضوية فاخرة</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Editorial Photo Gallery (7 Official Brand Shots from "images/photo of gallery") -->
+      <div class="gallery-strip reveal">
+
+        <figure class="gallery-item gallery-featured" tabindex="0">
+          <img src="images/photo%20of%20gallery/with%20special.jpg" alt="تقديم الإسبريسو المختص — jū Specialty Kōhī" loading="lazy">
+          <figcaption class="gallery-caption">
+            <span data-ar="تقديم الإسبريسو المختص · سيرادو البرازيل" data-en="Signature Espresso Service · Brazil Cerrado">تقديم الإسبريسو المختص · سيرادو البرازيل</span>
+            <i class="fas fa-expand"></i>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" tabindex="0">
+          <img src="images/photo%20of%20gallery/matacha.jpg" alt="ماتشا jū الاحتفالية الباردة" loading="lazy">
+          <figcaption class="gallery-caption">
+            <span data-ar="ماتشا jū الاحتفالية" data-en="Iced Ceremonial Matcha">ماتشا jū الاحتفالية</span>
+            <i class="fas fa-expand"></i>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" tabindex="0">
+          <img src="images/photo%20of%20gallery/apple%20wirh%20strawberry.jpg" alt="مشروبات jū المثلجة وبوكس الضيافة" loading="lazy">
+          <figcaption class="gallery-caption">
+            <span data-ar="إيحاءات الفواكه وبوكس الجمعات" data-en="Fruity Brews &amp; Gathering Box">إيحاءات الفواكه وبوكس الجمعات</span>
+            <i class="fas fa-expand"></i>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" tabindex="0">
+          <img src="images/photo%20of%20gallery/coffee2.jpg" alt="قهوة التقطير وتفاصيل هوية jū" loading="lazy">
+          <figcaption class="gallery-caption">
+            <span data-ar="قهوة التقطير وتفاصيل الهوية" data-en="Filter Brew &amp; Brand Craft">قهوة التقطير وتفاصيل الهوية</span>
+            <i class="fas fa-expand"></i>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" tabindex="0">
+          <img src="images/photo%20of%20gallery/pineapple%20coffee%20wiith%20.jpg" alt="قهوة مقطرة باردة بإيحاءات استوائية" loading="lazy">
+          <figcaption class="gallery-caption">
+            <span data-ar="نوتات استوائية باردة" data-en="Tropical Cold Filter">نوتات استوائية باردة</span>
+            <i class="fas fa-expand"></i>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" tabindex="0">
+          <img src="images/photo%20of%20gallery/mango.jpg" alt="مانجو ترافل — jū Mango Truffle" loading="lazy">
+          <figcaption class="gallery-caption">
+            <span data-ar="مانجو ترافل · حلى الصيف" data-en="Mango Truffle · Summer">مانجو ترافل · حلى الصيف</span>
+            <i class="fas fa-expand"></i>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item" tabindex="0">
+          <img src="images/photo%20of%20gallery/coffee1.jpg" alt="كوب قهوة jū في الهواء الطلق" loading="lazy">
+          <figcaption class="gallery-caption">
+            <span data-ar="قهوة الصباح في الهواء الطلق" data-en="Morning Kōhī Outdoors">قهوة الصباح في الهواء الطلق</span>
+            <i class="fas fa-expand"></i>
+          </figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== Opening Hours & Location ==================== -->
+  <section id="visit" class="section" style="background: var(--color-bg-subtle);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag" data-ar="أوقات العمل والموقع" data-en="HOURS & FLAGSHIP LOCATION">أوقات العمل والموقع</span>
+        <h2 class="section-title" data-ar="نسعد بزيارتكم في الظهران" data-en="Visit Our Dhahran Sanctuary">نسعد بزيارتكم في الظهران</h2>
+        <p class="section-desc" data-ar="موقعنا الاستراتيجي في حي الدانة الشمالية، مستعدون لاستقبالكم طوال أيام الأسبوع." data-en="Ideally situated in Al Danah Ash Shamaliyah near KFUPM, welcoming you seven days a week.">موقعنا الاستراتيجي في حي الدانة الشمالية، مستعدون لاستقبالكم طوال أيام الأسبوع.</p>
+      </div>
+
+      <div class="visit-grid">
+
+        <!-- Hours Card -->
+        <div class="hours-card reveal reveal-delay-1">
+          <div id="storeLiveStatus" class="hours-status">
+            <span style="width: 8px; height: 8px; border-radius: 50%; background: #2E7D32; display: inline-block;"></span>
+            <span>جاري التحقق من أوقات العمل...</span>
+          </div>
+
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 16px; color: var(--color-primary);" data-ar="ساعات العمل المعتمدة" data-en="Official Opening Hours">ساعات العمل المعتمدة</h3>
+
+          <table class="hours-table">
+            <tbody>
+              <tr>
+                <td class="day" data-ar="الأحد — الأربعاء" data-en="Sunday — Wednesday">الأحد — الأربعاء</td>
+                <td class="time" dir="ltr">5:30 AM – 11:00 PM</td>
+              </tr>
+              <tr>
+                <td class="day" data-ar="الخميس" data-en="Thursday">الخميس</td>
+                <td class="time" dir="ltr">5:30 AM – 1:00 AM</td>
+              </tr>
+              <tr>
+                <td class="day" data-ar="الجمعة" data-en="Friday">الجمعة</td>
+                <td class="time" dir="ltr">12:30 PM – 1:00 AM</td>
+              </tr>
+              <tr>
+                <td class="day" data-ar="السبت" data-en="Saturday">السبت</td>
+                <td class="time" dir="ltr">9:00 AM – 11:00 PM</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--color-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <div style="font-size: 0.8rem; color: #888;" data-ar="للتواصل والاستفسار" data-en="Direct Line & WhatsApp">للتواصل والاستفسار</div>
+              <a href="tel:+966547586822" dir="ltr" style="display: inline-block; font-weight: 700; color: var(--color-primary); font-family: var(--font-latin);">+966 54 758 6822</a>
+            </div>
+            <a href="https://instagram.com/ju.coffee.sa" target="_blank" style="display: flex; align-items: center; gap: 8px; font-weight: 600; color: #E1306C;">
+              <i class="fab fa-instagram" style="font-size: 1.25rem;"></i>
+              <span class="en" dir="ltr">@ju.coffee.sa</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Location Card -->
+        <div class="map-card reveal reveal-delay-2">
+          <div class="map-info">
+            <h3 style="font-size: 1.2rem; font-weight: 700; margin-bottom: 6px; color: var(--color-primary);" data-ar="موقعنا على الخريطة" data-en="Location & Directions">موقعنا على الخريطة</h3>
+            <p style="font-size: 0.88rem; color: var(--color-text-muted); margin-bottom: 14px;"
+              data-ar="الدانة الشمالية، الظهران 34258، المملكة العربية السعودية (بالقرب من جامعة الملك فهد KFUPM)."
+              data-en="Al Danah Ash Shamaliyah, Dhahran 34258, Saudi Arabia (minutes from KFUPM).">
+              الدانة الشمالية، الظهران 34258، المملكة العربية السعودية (بالقرب من جامعة الملك فهد KFUPM).
+            </p>
+            <a href="https://maps.app.goo.gl/vSbAHZfCay75oWnM6" target="_blank" class="btn-primary" style="padding: 10px 20px; font-size: 0.88rem;">
+              <i class="fas fa-diamond-turn-right"></i>
+              <span data-ar="فتح الاتجاهات في Google Maps" data-en="Open Directions in Google Maps">فتح الاتجاهات في Google Maps</span>
+            </a>
+          </div>
+          <iframe class="map-iframe" title="jū Specialty Coffee Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d600!2d50.1580199!3d26.3107871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e917757bc1e9%3A0xc6cb1e85a538e1a1!2sj%C5%AB%20specialty%20coffee!5e0!3m2!1sar!2ssa!4v1714000000000!5m2!1sar!2ssa" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== World-Class Global Architectural Footer ==================== -->
+  <footer class="footer">
+    <!-- Oversized Subtle Architectural Watermark -->
+    <div class="footer-watermark" dir="ltr" aria-hidden="true">j&#363;. K&#332;H&#298;</div>
+
+    <div class="container">
+
+      <!-- Top Concierge & Membership Pass -->
+      <div class="footer-concierge">
+        <div>
+          <span class="footer-concierge-eyebrow" dir="ltr">珈琲 · OMOTENASHI &amp; WARM RITUALS</span>
+          <h3 class="footer-concierge-title"
+            data-ar="سكينة الصباح وحرفية القهوة.. بانتظارك دائماً في jū"
+            data-en="Serenity, Craft &amp; Warm Rituals.. Awaiting You at jū.">
+            سكينة الصباح وحرفية القهوة.. بانتظارك دائماً في jū
+          </h3>
+          <p class="footer-concierge-sub"
+            data-ar="في قلب الظهران، نرحب بكم يومياً من 5:30 فجراً لنقدم لكم فنجاناً صُنع بإتقان في أجواء هادئة دافئة تبعث على السكينة والإلهام."
+            data-en="Welcoming you daily in Dhahran from 5:30 AM with meticulously crafted single-origin coffee and serene comfort.">
+            في قلب الظهران، نرحب بكم يومياً من 5:30 فجراً لنقدم لكم فنجاناً صُنع بإتقان في أجواء هادئة دافئة تبعث على السكينة والإلهام.
+          </p>
+          <div class="footer-cta-row">
+            <a href="https://wa.me/966547586822?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%83%D8%A7%D9%81%D9%8A%D9%87%20j%C5%AB%20%E2%98%95%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%85%D9%86%D9%83%D9%85" target="_blank" class="footer-pill-btn silver">
+              <i class="fab fa-whatsapp"></i>
+              <span data-ar="اطلب عبر واتساب" data-en="Order on WhatsApp">اطلب عبر واتساب</span>
+            </a>
+            <a href="https://maps.app.goo.gl/vSbAHZfCay75oWnM6" target="_blank" class="footer-pill-btn">
+              <i class="fas fa-location-arrow"></i>
+              <span data-ar="الاتجاهات (Google Maps)" data-en="Google Maps">الاتجاهات (Google Maps)</span>
+            </a>
+            <a href="https://instagram.com/ju.coffee.sa" target="_blank" class="footer-pill-btn">
+              <i class="fab fa-instagram"></i>
+              <span class="footer-ltr-val" dir="ltr">@ju.coffee.sa</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-qr-box">
+          <div class="footer-qr-frame">
+            <img src="images/qr_code.png" alt="jū Community QR Code" loading="lazy">
+          </div>
+          <div class="footer-qr-meta">
+            <div class="footer-qr-tag" dir="ltr">JŪ. KŌHĪ PASS</div>
+            <div class="footer-qr-text"
+              data-ar="امسح الرمز للتواصل المباشر وحفظ موقعنا بالظهران"
+              data-en="Scan to connect directly &amp; save our Dhahran location">
+              امسح الرمز للتواصل المباشر وحفظ موقعنا بالظهران
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4-Column Architectural Swiss Grid -->
+      <div class="footer-grid">
+
+        <!-- Column 0: Brand Manifesto -->
+        <div class="footer-brand">
+          <div class="footer-wordmark" dir="ltr">
+            <span class="fw-ju">jū.</span>
+            <span class="fw-sub">Specialty Kōhī</span>
+          </div>
+          <span class="footer-coords" dir="ltr">DHAHRAN 34258 · 26.3108° N, 50.1580° E</span>
+          <p data-ar="مساحة قهوة مختصة مستوحاة من الفلسفة اليابانية الهادئة في قلب الظهران، نجمع بين نقاء المحاصيل النادرة ودقة التقطير اليدوي."
+            data-en="A Japanese-minimalist specialty coffee house in Dhahran uniting rare single-origin harvests, precision manual brewing, and architectural calm.">
+            مساحة قهوة مختصة مستوحاة من الفلسفة اليابانية الهادئة في قلب الظهران، نجمع بين نقاء المحاصيل النادرة ودقة التقطير اليدوي.
+          </p>
+          <a href="https://maps.app.goo.gl/vSbAHZfCay75oWnM6" target="_blank" class="footer-rating-badge">
+            <i class="fas fa-star"></i>
+            <span dir="ltr" style="font-family: var(--font-latin); font-weight: 700;">4.5 / 5.0</span>
+            <span style="opacity: 0.4;">|</span>
+            <span data-ar="+868 تقييم موثق على Google" data-en="868+ Verified Google Reviews">+868 تقييم موثق على Google</span>
+          </a>
+        </div>
+
+        <!-- Column 01: Navigation -->
+        <div>
+          <div class="footer-col-header">
+            <span class="footer-idx" dir="ltr">01 /</span>
+            <h4 class="footer-title" data-ar="استكشف" data-en="EXPLORE">استكشف</h4>
+          </div>
+          <ul class="footer-links">
+            <li><a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+            <li><a href="#menu" data-ar="المنيو والأسعار" data-en="Menu & Prices">المنيو والأسعار</a></li>
+            <li><a href="#beans" data-ar="محاصيل البن الحصرية" data-en="Signature Origins">محاصيل البن الحصرية</a></li>
+            <li><a href="#catering" data-ar="باقات الضيافة" data-en="Event Catering">باقات الضيافة</a></li>
+            <li><a href="#partners" data-ar="شركاؤنا في التميز" data-en="Partner Privileges">شركاؤنا في التميز</a></li>
+            <li><a href="#atmosphere" data-ar="أجواء المكان" data-en="The Sanctuary">أجواء المكان</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 02: Schedule -->
+        <div>
+          <div class="footer-col-header">
+            <span class="footer-idx" dir="ltr">02 /</span>
+            <h4 class="footer-title" data-ar="أوقات العمل" data-en="HOURS">أوقات العمل</h4>
+          </div>
+          <ul class="footer-hours-list">
+            <li>
+              <span data-ar="الأحد – الأربعاء" data-en="Sun – Wed">الأحد – الأربعاء</span>
+              <span class="footer-hours-time" dir="ltr">05:30 – 23:00</span>
+            </li>
+            <li>
+              <span data-ar="الخميس" data-en="Thursday">الخميس</span>
+              <span class="footer-hours-time" dir="ltr">05:30 – 01:00</span>
+            </li>
+            <li>
+              <span data-ar="الجمعة" data-en="Friday">الجمعة</span>
+              <span class="footer-hours-time" dir="ltr">12:30 – 01:00</span>
+            </li>
+            <li>
+              <span data-ar="السبت" data-en="Saturday">السبت</span>
+              <span class="footer-hours-time" dir="ltr">09:00 – 23:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 03: Direct Contact (Strict LTR isolation for numbers & handles) -->
+        <div class="footer-contact-col">
+          <div class="footer-col-header">
+            <span class="footer-idx" dir="ltr">03 /</span>
+            <h4 class="footer-title" data-ar="التواصل والموقع" data-en="DIRECT & FLAGSHIP">التواصل والموقع</h4>
+          </div>
+          <div class="footer-contact-list">
+            <a href="tel:+966547586822" class="footer-contact-item">
+              <span class="footer-contact-icon"><i class="fas fa-phone"></i></span>
+              <span class="footer-ltr-val" dir="ltr">+966 54 758 6822</span>
+            </a>
+            <a href="https://instagram.com/ju.coffee.sa" target="_blank" class="footer-contact-item">
+              <span class="footer-contact-icon"><i class="fab fa-instagram"></i></span>
+              <span class="footer-ltr-val" dir="ltr">@ju.coffee.sa</span>
+            </a>
+            <a href="https://maps.app.goo.gl/vSbAHZfCay75oWnM6" target="_blank" class="footer-contact-item">
+              <span class="footer-contact-icon"><i class="fas fa-location-dot"></i></span>
+              <span data-ar="الدانة الشمالية، الظهران 34258" data-en="Al Danah North, Dhahran 34258">الدانة الشمالية، الظهران 34258</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Global Bar -->
+      <div class="footer-bottom">
+        <div data-ar="© 2026 jū. Specialty Kōhī — الظهران، المملكة العربية السعودية. جميع الحقوق محفوظة."
+          data-en="© 2026 jū. Specialty Kōhī — Dhahran, Kingdom of Saudi Arabia. All Rights Reserved.">
+          © 2026 jū. Specialty Kōhī — الظهران، المملكة العربية السعودية. جميع الحقوق محفوظة.
+        </div>
+
+        <div class="footer-payments" dir="ltr" aria-label="Accepted Payments">
+          <span class="pay-pill"><i class="fab fa-apple-pay" style="font-size: 1rem;"></i> Apple Pay</span>
+          <span class="pay-pill">mada</span>
+          <span class="pay-pill"><i class="fab fa-cc-visa"></i> VISA</span>
+          <span class="pay-pill"><i class="fab fa-cc-mastercard"></i> Mastercard</span>
+        </div>
+
+        <a href="#home" class="footer-backtop" dir="ltr">
+          <span>TOP</span>
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Gallery Lightbox Modal -->
+  <div id="galleryLightbox" class="gallery-lightbox" aria-hidden="true">
+    <button type="button" id="lightboxClose" class="lightbox-close" aria-label="Close">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="lightbox-stage">
+      <img id="lightboxImg" src="" alt="">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp CTA -->
+  <a href="https://wa.me/966547586822?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%20%D9%83%D8%A7%D9%81%D9%8A%D9%87%20j%C5%AB%20%E2%98%95%20%D8%A3%D9%88%D8%AF%20%D8%A7%D9%84%D8%B7%D9%84%D8%A8%20%D9%85%D9%86%D9%83%D9%85" target="_blank" class="whatsapp-float pulse-badge" title="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

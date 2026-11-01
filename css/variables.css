@@ -1,0 +1,64 @@
+/* ============================================================
+   jū. Specialty Kōhī — Design System & Custom Properties
+   Warm Wabi-Sabi Tones · Natural Oak, Washi Cream & Amber Glow
+   ============================================================ */
+
+:root {
+  /* Brand Core Colors (Deep Roasted Espresso & Warm Oak Palette) */
+  --color-primary: #191614;            /* Deep Warm Roasted Espresso Sumi Ink */
+  --color-primary-light: #2A241F;      /* Rich Warm Graphite Surface */
+  --color-primary-dark: #0E0C0A;       /* Pure Obsidian Charcoal */
+
+  /* Authentic Warm Wabi-Sabi Oak & Amber Tones */
+  --color-wood: #C89D66;               /* Natural Warm Oak Wood (خشب البلوط الطبيعي) */
+  --color-wood-light: #DFC29B;         /* Soft Honey Oak / Amber Highlight */
+  --color-wood-dark: #9E743F;          /* Deep Roasted Cedar / Aged Oak */
+  --wood-gradient: linear-gradient(135deg, #C89D66 0%, #A47742 100%);
+
+  /* Warm Amber Light & Glow */
+  --color-amber: #E5A855;              /* Warm Amber Lamp Glow (إضاءة الكهرمان الدافئة) */
+  --color-amber-soft: rgba(200, 157, 102, 0.14);
+  --color-gold: #C89D66;               /* Warm Golden Oak Accent */
+
+  /* Japanese Washi Paper & Warm Tactile Stone Backgrounds */
+  --color-bg-main: #FAF7F2;            /* Warm Japanese Washi Paper (ورق الواشي الكريمي الدافئ) */
+  --color-bg-card: #FFFFFF;            /* Warm Pure Crisp White Card */
+  --color-bg-subtle: #F3ECE2;          /* Warm Tactile Cream Stone / Parchment */
+  --color-bg-warm: #EFE6D8;            /* Rich Warm Linen Section Background */
+  --color-border: #E8DED2;             /* Warm Subtle Linen Hairline Border */
+  --color-border-light: #F2EBE1;
+
+  /* Botanical Drink Accents */
+  --color-matcha: #2E6F40;             /* Uji Ceremonial Matcha Green */
+  --color-matcha-light: #EAF4ED;
+  --color-hibiscus: #B83A32;           /* Roselle Berry Red */
+  --color-hibiscus-light: #FDF2F0;
+
+  /* Text Colors (Warm, Deep, High Contrast — No Washed-Out Grays!) */
+  --color-text-main: #1C1815;          /* High Contrast Warm Black */
+  --color-text-muted: #5E544A;         /* Rich Warm Umber Gray (Ultra-Readable) */
+  --color-text-light: #8E8377;         /* Warm Metadata Gray */
+  --color-text-inverse: #FFFFFF;       /* Pure White */
+
+  /* Typography */
+  --font-arabic: 'IBM Plex Sans Arabic', 'Tajawal', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-latin: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Amiri', serif;
+
+  /* Elevation Shadows (Soft Warm Sunlight Ambient Diffusion) */
+  --shadow-sm: 0 2px 10px rgba(50, 35, 20, 0.04);
+  --shadow-md: 0 8px 24px rgba(50, 35, 20, 0.06);
+  --shadow-lg: 0 16px 40px rgba(50, 35, 20, 0.08);
+  --shadow-hover: 0 18px 42px rgba(50, 35, 20, 0.12);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}

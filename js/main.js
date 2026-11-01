@@ -49,14 +49,7 @@ function initPreloader() {
   const preloader = document.getElementById('preloader');
   if (!preloader) return;
 
-  // Fast skip if visited in current session
-  if (sessionStorage.getItem('ju_preloaded')) {
-    preloader.style.display = 'none';
-    return;
-  }
-  sessionStorage.setItem('ju_preloaded', 'true');
-
-  const TOTAL_DURATION = 1400;
+  const TOTAL_DURATION = 2800;
 
   let hidden = false;
   const hidePreloader = () => {
@@ -68,7 +61,7 @@ function initPreloader() {
     }, 450);
   };
 
-  // Instant tap / click to dismiss
+  // Tap to skip on mobile
   preloader.addEventListener('click', hidePreloader, { once: true });
   preloader.addEventListener('touchstart', hidePreloader, { once: true, passive: true });
 
